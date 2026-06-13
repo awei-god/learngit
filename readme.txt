@@ -9,4 +9,6 @@
 7.New-Item -Path file -ItemType Flie来创建一个新的文件
 8.rm file 来删除文件
 9.git checkout其实是用版本库里的版本替换工作区的版本，无论工作区是修改还是删除，都可以“一键还原”。
-10.git push 直接推送
+10.git push 直接推送 //前提：你已经 git push -u origin main 建立过关联
+11.在10的操作后，每次文件进行了提交都可以用git push origin main，把本地main的分支推送道github
+12.（很重要），每次编辑完文本要进行crtl+s进行保存，否则在powershell里面的添加和提交将没有意义。
