@@ -15,3 +15,5 @@
 13.当在校园网、公司网络等环境下，22 端口很可能会被防火墙策略屏蔽，这时测试ssh连接：ssh -T git@github.com ,然后找deepseek要代码
 14.以后克隆远程库只能用https克隆（因为我的电脑用户名是中文，是非ASCII）公式：git clone https://github.com/用户名/仓库名.git
 15.看完log，处在分页器阶段，按q退出分页器
+
+test
